@@ -55,3 +55,9 @@ jobs:
     project_name: # default is 
     # Timeout before giving up (in case analysis takes too long). Default is 10 minutes
     max_timeout_sec: # default is 600
+
+- name: approved-event
+  uses: taichi/approved-event-action@v1.2.1
+  with:
+    # number of approvals require to be approved.
+    approvals: # optional, default is 1
